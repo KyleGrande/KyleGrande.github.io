@@ -207,9 +207,6 @@ body {
     text-align: center;
     font-size: 25px;
     letter-spacing: 2px;
-    margin: 0px;
-    border-radius: 2px white;
-    border-width: 5px;
 }
 
 .myCart {
@@ -231,8 +228,6 @@ body {
     border-radius: 10px;
     border-color: black;
 }
-
-ul {}
 
 ul li {
     list-style: none;
