@@ -244,3 +244,7 @@ ul li {
     border-radius: 10px;
     border-color: black;
 }
+
+p {
+    font-family: "Average Sans", Sans, sans-serif;
+ }
