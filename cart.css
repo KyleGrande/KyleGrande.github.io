@@ -191,7 +191,7 @@ nav {
     background-color: #7ED957;
     border-radius: 0px 0px 9px 9px;
     color: white;
-    position: fixed;
+    position: relative;
 }
 
 img {
