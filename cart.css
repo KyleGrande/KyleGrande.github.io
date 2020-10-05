@@ -183,32 +183,6 @@ select {
 
 * {
     font-family: "Helvetica";
-    box-sizing: border-box;
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-.yourCart {
-    font-size: 25px;
-    text-align: center;
-}
-
-.total {
-    font-size: 25px;
-    text-align: right;
-}
-
-
-/* Clearfix (clear floats) */
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 nav {
@@ -220,12 +194,13 @@ nav {
 }
 
 img {
-    width: 60px;
-    height: 60px;
     display: block;
     margin-left: auto;
     margin-right: 95%;
+    width: 60px;
+    height: 60px;
     left: 100%;
+    float: left;
 }
 
 .ThriftLogo {
