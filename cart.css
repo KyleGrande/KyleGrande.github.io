@@ -186,17 +186,16 @@ select {
 }
 
 nav {
-    width: 100%;
+    width: 102%;
     height: 6%;
     background-color: #7ED957;
     border-radius: 0px 0px 9px 9px;
     color: white;
-    position: relative;
+    position: absolute;
 }
 
 img {
     display: block;
-    margin-right: 95%;
     width: 60px;
     height: 60px;
     left: 100%;
@@ -212,8 +211,7 @@ img {
 }
 
 body {
-    text-align: center;
-    padding: %;
+    text-align: justify;
 }
 
 .cart {
