@@ -203,6 +203,10 @@ img {
     float: left;
 }
 
+.yourCart {
+    text-align: center;
+}
+
 .ThriftLogo {
     width: 1px;
     height: 1px;
