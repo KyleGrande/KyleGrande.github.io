@@ -236,5 +236,6 @@ table {
 
 th,
 td {
+    border: none;
     padding: 15px;
 }
