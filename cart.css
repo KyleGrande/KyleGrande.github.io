@@ -197,6 +197,12 @@ select {
     border-radius: 0px 0px 9px 9px;
 }
 
+.behind {
+    background-color: #cccccc80;
+    padding: 0px;
+    margin: 0px;
+}
+
 p {
     margin: 5%;
     margin-left: 21%;
@@ -212,7 +218,7 @@ img {
 
 body {
     text-align: center;
-    padding-top: 14%;
+    padding-top: 15.3%;
 }
 
 table {
@@ -222,16 +228,20 @@ table {
     font-size: 16px;
 }
 
-th,
-td {
-    border: none;
-    line-height: 40px;
-}
-
 thead {
+    border: none;
     padding: 0px;
-    margin: px;
+    margin: 0px;
     font-size: 8px;
     background-color: #cccccc80;
     border-radius: 0px 0px 12px 12px;
+}
+
+th,
+td {
+    border: none;
+}
+
+tbody {
+    line-height: 45px;
 }
