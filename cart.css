@@ -201,7 +201,7 @@ p {
     margin: 5%;
     margin-left: 21%;
     padding: 0;
-    font-size: 22px;
+    font-size: 20px;
     display: inline;
 }
 
@@ -212,7 +212,7 @@ img {
 
 body {
     text-align: center;
-    margin-top: 20%;
+    padding-top: 14%;
 }
 
 table {
@@ -225,5 +225,13 @@ table {
 th,
 td {
     border: none;
-    padding: 15px;
+    line-height: 25px;
+}
+
+thead {
+    padding: 0px;
+    margin: px;
+    font-size: 8px;
+    background-color: lightgray;
+    border-radius: 0px 0px 12px 12px;
 }
