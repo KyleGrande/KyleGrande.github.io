@@ -209,12 +209,11 @@ p {
 img {
     height: 60px;
     width: 60px;
-    display: inline-flexbox;
 }
 
 body {
     text-align: center;
-    padding-top: 15.3%;
+    padding-top: 15.1%;
 }
 
 table {
@@ -240,4 +239,9 @@ td {
 
 tbody {
     line-height: 45px;
+}
+
+.first {
+    width: 10px;
+    height: 10px;
 }
