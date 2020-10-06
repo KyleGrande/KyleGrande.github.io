@@ -219,19 +219,19 @@ table {
     border: none;
     width: 100%;
     color: gray;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 th,
 td {
     border: none;
-    line-height: 25px;
+    line-height: 40px;
 }
 
 thead {
     padding: 0px;
     margin: px;
     font-size: 8px;
-    background-color: lightgray;
+    background-color: #cccccc80;
     border-radius: 0px 0px 12px 12px;
 }
