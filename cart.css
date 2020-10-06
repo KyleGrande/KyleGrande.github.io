@@ -209,6 +209,7 @@ p {
 img {
     height: 60px;
     width: 60px;
+    display: inline-flexbox;
 }
 
 body {
