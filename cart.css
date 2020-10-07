@@ -185,30 +185,38 @@ select {
     font-family: "Helvetica";
 }
 
-.nav {
+header {
     color: white;
     position: fixed;
     display: flex;
     top: 0;
-    left: 0;
     width: 100%;
     height: 7%;
-    min-height: 7%;
     background-color: #7ED957;
     border-radius: 0px 0px 9px 9px;
-}
-
-p {
-    margin: 5%;
-    margin-left: 21%;
-    padding: 0;
-    font-size: 20px;
-    display: inline;
+    padding-left: auto;
+    padding-right: 100%;
 }
 
 img {
     height: 60px;
     width: 60px;
+    display: inline-block;
+}
+
+.yourCart {
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 23%;
+    padding-top: 4.5%;
+}
+
+.total {
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 18%;
+    padding-top: 3.5%;
+    margin-right: 2%;
 }
 
 body {
@@ -225,8 +233,6 @@ table {
 
 thead {
     border: none;
-    padding: 0px;
-    margin: 0px;
     font-size: 8px;
     background-color: #cccccc80;
     border-radius: 0px 0px 12px 12px;
@@ -239,9 +245,4 @@ td {
 
 tbody {
     line-height: 45px;
-}
-
-.first {
-    width: 10px;
-    height: 10px;
 }
